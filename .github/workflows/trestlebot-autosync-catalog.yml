@@ -22,7 +22,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: Run autosync
         id: autosync
-        uses: RedHatProductSecurity/trestle-bot/actions/autosync@main
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@ISSUE-230_default_strings_to_none
         with:
           markdown_path: "markdown/catalogs"
           oscal_model: "catalog"
