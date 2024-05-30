@@ -1,0 +1,12 @@
+x-trestle-component-info:
+  description: test-100
+  name: cc-100-component-100
+  type: service
+x-trestle-rule-info:
+  description: Rule for pr-1
+  name: rule-pr-1
+  profile:
+    description: ACME Inc. official controls profile.
+    href: trestle://profiles/ACME_custom_profile/profile.json
+    include-controls:
+    - id: pr-1
