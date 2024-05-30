@@ -28,7 +28,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Transform rules
-        uses: RedHatProductSecurity/trestle-bot/actions/transform-rules@main
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@main
     
   autosync:
     name: Trestle-bot Autosync Content
