@@ -11,7 +11,7 @@ on:
 
 jobs:
   autosync:
-    name: Autosync catalog content
+    name: Autosync profile content
     runs-on: ubuntu-latest
     permissions:
       contents: write
